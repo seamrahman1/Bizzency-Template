@@ -1,0 +1,963 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*=======================================
+        Header Part Css Start
+=========================================*/
+#header-part {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 25px;
+    background: #0f2f44;
+    color: white;
+    padding: 12px 0;
+
+}
+
+#header-part .left {
+    width: 50%;
+    float: left;
+}
+
+#header-part .right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+/*=======================================
+        Header Part Css End
+=========================================*/
+
+/*=======================================
+        Navber Part Css Start
+=========================================*/
+nav {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container .logo {
+    width: 15%;
+    float: left;
+}
+
+.container .list-item {
+    width: 85%;
+    float: left;
+    text-align: right;
+
+}
+
+.container .list-item ul {
+    margin-top: 8px;
+}
+
+.container .list-item ul li {
+    display: inline-block;
+}
+
+.container .list-item ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 70px;
+    transition: .5s;
+}
+
+.container .list-item ul li a:hover {
+    color: #ffc712;
+}
+
+/*=======================================
+        Navber Part Css End
+=========================================*/
+
+/*=======================================
+        Banner Part Css Start
+=========================================*/
+#banner-part {
+    background: url(../images/banner.png) center no-repeat;
+    background-position: cover;
+    padding: 135px 0;
+}
+
+#banner-part h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+
+#banner-part h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+    margin-top: -30px;
+    text-transform: uppercase;
+}
+
+#banner-part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #aab0d8;
+    letter-spacing: 14px;
+    margin-top: -16px;
+}
+
+#banner-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 482px;
+    margin-top: 16px;
+}
+
+#banner-part a {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    background: #8484bf;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 35px;
+    transition: .5s;
+    border: 1px solid #8484bf;
+}
+
+#banner-part a:hover {
+    background: #fff;
+    color: #8484bf;
+}
+
+#banner-part i {
+    width: 50px;
+    height: 50px;
+    color: #8484bf;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    margin-left: 20px;
+    font-size: 17px;
+    transition: .5s;
+}
+
+
+#banner-part i:hover {
+    background: #8484bf;
+    color: #fff;
+}
+
+/*=======================================
+        Banner Part Css End
+=========================================*/
+
+/*=======================================
+        About Part Css Start
+=========================================*/
+#about {
+    margin-top: 100px;
+}
+
+#about .text {
+    width: 50%;
+    float: left;
+}
+
+#about .title h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#about .title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+#about .details p {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#about .details ul {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#about .details ul li {
+    margin-bottom: 20px;
+}
+
+#about .img {
+    width: 50%;
+    float: left;
+}
+
+#about .text .details a {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+#about .text .details a:hover {
+    background: #fcc512;
+}
+
+/*=======================================
+        About Part Css End
+=========================================*/
+
+/*=======================================
+        Skill Part Css Start
+=========================================*/
+
+#skill-part {
+    margin-top: 60px;
+    background: url(../images/skill.png) center no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+
+}
+
+#skill-part .row {
+    display: flex;
+
+}
+
+#skill-part .row .img {
+    width: 48%;
+}
+
+#skill-part .row .pro {
+    width: 48%;
+}
+
+#skill-part .row .pro h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+#skill-part .row .pro h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+
+#skill-part .row .pro p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #0f2f44;
+}
+
+/*==============================*/
+
+.main {
+    margin-top: 56px;
+    margin-right: -7px;
+
+}
+
+
+#skill-part .item {
+    width: 330px;
+    margin: 0 auto;
+    text-align: right;
+    margin-right: 100px;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+#skill-part .item h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#skill-part .item h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#skill-part .item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.item h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#skill-part .item .round {
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 66px;
+    position: absolute;
+    top: -18px;
+    right: -90px;
+}
+
+
+#skill-part .item .round2 img {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*=======================================
+        Skill Part Css End
+=========================================*/
+
+
+
+/*=======================================
+        Srvice Part Css Start
+=========================================*/
+
+#service-part {
+    background: #f5f5f5;
+    margin-top: 100px;
+    padding: 60px 0;
+}
+
+#service-part .title {
+    text-align: center;
+}
+
+#service-part .title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+#service-part .title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+
+#service-part .item {
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+    position: relative;
+    margin-top: 60px;
+}
+
+#service-part .item .main {
+    width: 100%;
+    height: 100%;
+}
+
+#service-part .item .main .img {
+    width: 25%;
+    float: left;
+    background: #e9e9e9;
+    box-sizing: border-box;
+    padding: 32px 0;
+    text-align: center;
+}
+
+#service-part .item .main .text {
+    width: 75%;
+    float: left;
+    background: #eeeeee;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#service-part .item .main .text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+#service-part .item .main .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+
+#service-part .item .overlay {
+    font-family: 'Open Sans', sans-serif;
+    width: 0%;
+    height: 100%;
+    background: #0f2f44;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: .7s;
+    opacity: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+
+}
+
+#service-part .item .overlay img {
+    margin-top: 10px;
+}
+
+#service-part .item:hover .overlay {
+    width: 100%;
+    opacity: 1;
+}
+
+
+/*=======================================
+        Srvice Part Css End
+=========================================*/
+
+/*=======================================
+        Portfolio Part Css Start
+=========================================*/
+
+#Portfolio-part {
+    margin-top: 100px;
+}
+
+#Portfolio-part .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Portfolio-part .title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+#Portfolio-part .title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+
+#Portfolio-part .item {
+    width: 30%;
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 50px;
+
+}
+
+#Portfolio-part .item .img {
+    width: 100%;
+    height: 100%;
+}
+
+#Portfolio-part .item .img img {
+    width: 100%;
+}
+
+#Portfolio-part .item .overlay {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 0;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 0;
+    padding: 30px 0;
+    opacity: 0;
+    transition: .4s;
+    -webkit-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+}
+
+#Portfolio-part .item:hover .overlay {
+    opacity: 1;
+}
+
+#Portfolio-part .btn {
+    text-align: center;
+}
+
+#Portfolio-part .btn a {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+#Portfolio-part .btn a:hover {
+    background: #fcc512;
+}
+
+/*=======================================
+        Portfolio Part Css End
+=========================================*/
+
+/*=======================================
+        Testimonial Part Css Start
+=======================================*/
+#test-part {
+    margin-top: 100px;
+    background: #f5f5f5;
+    padding: 60px 0;
+}
+
+#test-part .title {
+    text-align: center;
+
+}
+
+#test-part .title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+#test-part .title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+
+#test-part .item {
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+
+}
+
+#test-part .item .main {
+    width: 100%;
+    height: 100%;
+}
+
+#test-part .item .main .img {
+    width: 37%;
+    float: left;
+    text-align: center;
+}
+
+#test-part .item .main .text {
+    width: 57%;
+    float: left;
+    background: #eeeeee;
+    padding-left: 13px;
+}
+
+
+#test-part .item .main .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #0f2f44;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#test-part .item .main .text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #0f2f44;
+    font-weight: 400;
+    padding-top: 56px;
+}
+
+#test-part .item .main .text h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0f2f44;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+
+/*=======================================
+        Testimonial Part Css End
+=========================================*/
+
+/*=======================================
+        Blog Part Css Start
+=========================================*/
+
+#blog-part {
+    margin-top: 60px;
+}
+
+#blog-part .title {
+    text-align: center;
+
+}
+
+#blog-part .title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+#blog-part .title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #0f2f44;
+    font-weight: 400;
+}
+
+#blog-part .item {
+    width: 28%;
+    float: left;
+    background: #f5f5f5;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: .7s;
+    border-radius: 5px;
+    margin: 50px 25px;
+
+}
+
+#blog-part .item .img img {
+    width: 100%;
+}
+
+#blog-part .item .img {
+    padding-bottom: 26px;
+}
+
+#blog-part .item .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+#blog-part .item .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    padding-top: 7px;
+    padding-bottom: 14px;
+}
+
+#blog-part .item .text a {
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+#blog-part .item:hover {
+    background: #0F2F44;
+    color: #ffffff;
+
+}
+
+#blog-part .item:hover .text p {
+    color: #ffffff;
+}
+
+#blog-part .item:hover .text h2 {
+    color: #ffffff;
+}
+
+#blog-part .item:hover .text a {
+    color: #ffffff;
+}
+
+#blog-part .btn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#blog-part .btn a {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 40px -6px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+#blog-part .btn a:hover {
+    background: #fcc512;
+}
+
+
+/*=======================================
+          Blog Part Css End
+=========================================*/
+
+/*=======================================
+          Footer Part Css Start
+=========================================*/
+#footer-part {
+    margin-top: 100px;
+    background: #f5f5f5;
+    padding: 60px 0;
+    -webkit-box-shadow: 0px -4px 39px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 39px 0px;
+}
+
+#footer-part .logo {
+    width: 25%;
+    float: left;
+}
+
+#footer-part .logo p {
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#footer-part .logo a i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0f2f44;
+    color: #0f2f44;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 7px;
+    transition: .9s;
+}
+
+#footer-part .logo a i:hover {
+    color: #fff;
+    background: #0f2f44;
+}
+
+
+#footer-part .contact {
+    width: 25%;
+    float: left;
+    padding-left: 6px;
+}
+
+#footer-part .contact h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#footer-part .contact .item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #777;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 32px;
+}
+
+#footer-part .contact .item i {
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+#footer-part .important {
+    width: 16%;
+    float: left;
+}
+
+#footer-part .important h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#footer-part .important ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #0f2f44;
+    transition: .5s;
+}
+
+#footer-part .important ul li {
+    margin-top: 25px;
+}
+
+
+#footer-part .important ul li a:hover {
+    padding-left: 20px;
+}
+
+
+#footer-part .flikr {
+    width: 32%;
+    float: left;
+    padding-left: 16px;
+}
+
+#footer-part .flikr h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#footer-part .flikr .holder {
+    margin-top: 25px;
+}
+
+#footer-part .flikr .img {
+    width: 22%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#footer-part .flikr .img img {
+    width: 100%;
+}
+
+/*=======================================
+          Footer Part Css End
+=========================================*/
+
+/*=======================================
+          Footer-Bottom Part Css Start
+=========================================*/
+
+#footer-bottom {
+    background: #f8f8f8;
+    -webkit-box-shadow: inset 0px 40px 166px -88px rgba(0, 0, 0, 0.2);
+    padding: 11px 0;
+    position: relative;
+}
+
+#footer-bottom .row {
+    text-align: center;
+}
+
+#footer-bottom ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 14px;
+    padding-right: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+#footer-bottom ul li::after {
+    position: absolute;
+    background: #777;
+    content: "";
+    width: 1px;
+    height: 20px;
+    right: -3px;
+}
+
+#footer-bottom ul li:last-child::after {
+    display: none;
+}
+
+#footer-bottom ul li samp {
+    color: #fcc512;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================================
+          Footer-Bottom Part Css End
+=========================================*/
